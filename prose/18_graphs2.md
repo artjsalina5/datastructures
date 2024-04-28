@@ -324,7 +324,7 @@ In that case, we first tried to write a function that would test for correct out
 We won't go that far now, but we will ask, "How would we know if we had the minimum spanning tree?"
 
 One thing that would certainly be true about the minimum spanning tree is that if we removed an edge (resulting in two trees), we couldn't find a lighter weight edge connecting these two trees.
-Otehrwise, that would be a spanning tree of lower weight.
+Otherwise, that would be a spanning tree of lower weight.
 
 Something even a little more general is true.
 If we split the vertices into any two sets $A$ and $B$, the lowest weight edge with one end in $A$ and the other end in $B$ must be in the MST.
